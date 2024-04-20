@@ -111,7 +111,8 @@
 }
 
 @media screen and (max-width: 450px) {
-  .card-rating {
+  .card-rating,
+  .card-thankyou {
     width: 327px;
     height: 360px;
     padding: 24px 24px 32px;
@@ -153,5 +154,26 @@
   .cta {
     font-size: 14px;
     letter-spacing: 1.87px;
+  }
+
+  .card-thankyou {
+    padding: 34px 24px 37px;
+  }
+
+  .image {
+    width: 144px;
+    height: 96px;
+  }
+
+  .ratings-given {
+    width: 168px;
+    padding: 6px 12px 5px;
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .card-thankyou > .title {
+    margin-top: 24px;
   }
 }

@@ -109,3 +109,49 @@
 .card-thankyou > .description {
   text-align: center;
 }
+
+@media screen and (max-width: 450px) {
+  .card-rating {
+    width: 327px;
+    height: 360px;
+    padding: 24px 24px 32px;
+    border-radius: 15px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon > img {
+    width: 13.96px;
+    height: 13.33px;
+  }
+
+  .title {
+    margin-top: 16px;
+    font-size: 24px;
+  }
+
+  .description {
+    margin-top: 17px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .ratings {
+    margin: 24px 0;
+  }
+
+  .rating {
+    width: 42px;
+    height: 42px;
+    font-size: 14px;
+    letter-spacing: 0.17px;
+  }
+
+  .cta {
+    font-size: 14px;
+    letter-spacing: 1.87px;
+  }
+}
